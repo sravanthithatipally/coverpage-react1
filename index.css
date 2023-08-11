@@ -1,0 +1,43 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0f172a;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 65px;
+  }
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+}
